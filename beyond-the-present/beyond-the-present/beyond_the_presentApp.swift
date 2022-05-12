@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import AppMain
 
 @main
 struct beyond_the_presentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

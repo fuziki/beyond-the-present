@@ -11,10 +11,10 @@
 		528D3406282C16F9005BD7A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D3405282C16F9005BD7A2 /* ContentView.swift */; };
 		528D3408282C16FA005BD7A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528D3407282C16FA005BD7A2 /* Assets.xcassets */; };
 		528D340B282C16FA005BD7A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528D340A282C16FA005BD7A2 /* Preview Assets.xcassets */; };
-		528D3414282D2452005BD7A2 /* Modules in Frameworks */ = {isa = PBXBuildFile; productRef = 528D3413282D2452005BD7A2 /* Modules */; };
 		528D3419282D249E005BD7A2 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 528D3416282D249E005BD7A2 /* Common.xcconfig */; };
 		528D341A282D249E005BD7A2 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 528D3417282D249E005BD7A2 /* Debug.xcconfig */; };
 		528D341B282D249E005BD7A2 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 528D3418282D249E005BD7A2 /* Release.xcconfig */; };
+		52988FFF282D2C9400856966 /* AppMain in Frameworks */ = {isa = PBXBuildFile; productRef = 52988FFE282D2C9400856966 /* AppMain */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528D3414282D2452005BD7A2 /* Modules in Frameworks */,
+				52988FFF282D2C9400856966 /* AppMain in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +113,7 @@
 			);
 			name = "beyond-the-present";
 			packageProductDependencies = (
-				528D3413282D2452005BD7A2 /* Modules */,
+				52988FFE282D2C9400856966 /* AppMain */,
 			);
 			productName = "beyond-the-present";
 			productReference = 528D3400282C16F9005BD7A2 /* Longarok.app */;
@@ -374,9 +374,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		528D3413282D2452005BD7A2 /* Modules */ = {
+		52988FFE282D2C9400856966 /* AppMain */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Modules;
+			productName = AppMain;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
